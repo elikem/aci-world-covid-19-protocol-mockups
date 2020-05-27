@@ -1,0 +1,20 @@
+// larger buttons
+.btn-xl {
+  padding: .75rem 1.75rem;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  border-radius: .35rem;
+}
+
+// blue buttons
+.btn-dark-blue {
+  color: #fff;
+  background-color: $dark-blue;
+  border-color: $dark-blue;
+
+  &:hover {
+    color: #fff;
+    background-color: $light-blue;
+    border-color: $light-blue;
+  }
+}

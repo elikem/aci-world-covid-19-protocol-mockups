@@ -1,14 +1,11 @@
 ---
 ---
 
-// custom styles
-html, body, p {
-  font-family: 'Muli', sans-serif;
-  color: #565656;
-  font-size: 16px;
-  line-height: 1.5;
-}
-
-h1, h2 {
-  font-weight: 800;
-}
+// These styles are customizations made on top of Bootstrap to match mockups provided.
+// The order in which these files are imported matter.
+@import "grid";
+@import "forms";
+@import "typography";
+@import "colors";
+@import "buttons";
+@import "globals";

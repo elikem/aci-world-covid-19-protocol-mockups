@@ -1,0 +1,23 @@
+// color variables
+// ACI Colors
+$light-blue: #5692C9;
+$dark-blue: #004FA3;
+$dark-gray: #565656;
+
+// text colors
+.text-dark-blue {
+  color: $dark-blue;
+}
+
+.text-light-blue {
+  color: $light-blue;
+}
+
+// background colors
+.bg-dark-blue {
+  background-color: $dark-blue;
+}
+
+.bg-light-blue {
+  background-color: $light-blue;
+}
