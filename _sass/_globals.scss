@@ -6,7 +6,7 @@ html, body, p {
 }
 
 .sign-in-with-linkedin {
-  background: url("/assets/images/signin_with_linkedin-buttons/Retina/Sign-In-Small---Default.png") no-repeat center;
+  background: url("../../assets/images/signin_with_linkedin-buttons/Retina/Sign-In-Small---Default.png") no-repeat center;
   //width: 292px;
   height: 40px;
   display: block;
@@ -14,6 +14,6 @@ html, body, p {
   //height: auto;
 
   &:hover {
-    background-image: url("/assets/images/signin_with_linkedin-buttons/Retina/Sign-In-Small---Hover.png");
+    background-image: url("../../assets/images/signin_with_linkedin-buttons/Retina/Sign-In-Small---Hover.png");
   }
 }
