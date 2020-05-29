@@ -3,6 +3,7 @@
 $light-blue: #5692C9;
 $dark-blue: #004FA3;
 $dark-gray: #565656;
+$light-gray: #F7F7F7;
 
 // text colors
 .text-dark-blue {
@@ -20,4 +21,8 @@ $dark-gray: #565656;
 
 .bg-light-blue {
   background-color: $light-blue;
+}
+
+.bg-light-gray {
+  background-color: $light-gray;
 }

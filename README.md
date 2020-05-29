@@ -1,5 +1,5 @@
 ## [ACI World COVID-19 Protocol Mockup](https://elikem.github.io/aci-world-covid-19-protocol-mockups/)
-Style references based on [ACI World Insights](https://blog.aci.aero/).
+Style references based on [ACI World Insights](https://blog.aci.aero/). Mockups provided by SFO.
 
 ### Run Mockups Locally
 The framework driving this website is [Jekyll](https://jekyllrb.com/) and requires [Ruby](https://www.ruby-lang.org/en/).
