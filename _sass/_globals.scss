@@ -5,20 +5,30 @@ html, body, p {
   line-height: 1.5;
 }
 
-.sign-in-with-linkedin {
-  background: url("../../assets/images/signin_with_linkedin-buttons/Retina/Sign-In-Small---Default.png") no-repeat center;
-  //width: 292px;
-  height: 40px;
-  display: block;
-  max-width: 100%;
-  //height: auto;
-
-  &:hover {
-    background-image: url("../../assets/images/signin_with_linkedin-buttons/Retina/Sign-In-Small---Hover.png");
-  }
-}
-
 img.logo {
   height: 150px;
   width: auto;
+}
+
+.footer {
+  .nav {
+    li {
+      &:first-child {
+        a:before {
+          content: none;
+        }
+      }
+      a {
+        padding-right: 0;
+
+        &:before {
+          display: inline-block;
+          padding-right: 1rem;
+          padding-left: 1rem;
+          color: #6c757d;
+          content: "|";
+        }
+      }
+    }
+  }
 }
