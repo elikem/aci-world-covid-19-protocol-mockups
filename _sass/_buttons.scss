@@ -17,4 +17,9 @@
     background-color: $light-blue;
     border-color: $light-blue;
   }
+
+  &.active {
+    background-color: $dark-gray;
+    color: white;
+  }
 }
