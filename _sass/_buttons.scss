@@ -23,3 +23,38 @@
     color: white;
   }
 }
+
+// gray buttons
+.btn-light-gray {
+  color: #fff;
+  background-color: #ACB2BB;
+  border-color: #ACB2BB;
+
+  &:hover {
+    color: #fff;
+    background-color: $light-blue;
+    border-color: $light-blue;
+  }
+
+  &.active {
+    background-color: $dark-blue;
+    color: white;
+  }
+}
+
+.btn-dark-gray {
+  color: #fff;
+  background-color: $dark-gray;
+  border-color: $dark-gray;
+
+  &:hover {
+    color: #fff;
+    background-color: $light-blue;
+    border-color: $light-blue;
+  }
+
+  &.active {
+    background-color: $dark-blue;
+    color: white;
+  }
+}
