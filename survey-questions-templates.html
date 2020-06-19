@@ -1,0 +1,125 @@
+---
+title: "Your Team's Contact Info"
+layout: default
+---
+
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <div class="text-left">
+                <img src="./assets/images/aci-logos/aci-logo-narrow-high-res.png" class="img-fluid mt-4 logo" alt="ACI logo">
+            </div>
+
+            <h2 class="text-dark-blue mt-5 mb-4">ACI Airports Measures Portal</h2>
+
+            <table class="table table-sm borderless">
+                <tbody>
+                <tr class="text-center">
+                    <th><span class="badge badge-primary badge-xl rounded-circle">1</span></th>
+                    <th></th>
+                    <th><span class="badge badge-secondary badge-xl rounded-circle">2</span></th>
+                    <th></th>
+                    <th><span class="badge badge-secondary badge-xl rounded-circle">3</span></th>
+                    <th></th>
+                    <th><span class="badge badge-secondary badge-xl rounded-circle">4</span></th>
+                    <th></th>
+                    <th><span class="badge badge-secondary badge-xl rounded-circle">5</span></th>
+                </tr>
+                <tr class="text-center">
+                    <th>Contact Info</th>
+                    <th><hr/></th>
+                    <td>Passenger Requirements</td>
+                    <th><hr/></th>
+                    <td>General Airport Measures</td>
+                    <th><hr/></th>
+                    <td>Airport Safety Measures</td>
+                    <th><hr/></th>
+                    <td>Airport Services</td>
+                </tr>
+                </tbody>
+            </table>
+
+            <p class="text-right mt-3"><a href="#" class="font-weight-bold btn btn-dark-blue">Save</a></p>
+
+            <h1 class="mt-5">Page Title</h1>
+            <h3>Page Description</h3>
+
+            <form action="#" class="mt-5">
+                <div class="form-group mt-4" id="question-1">
+                    <h5 class="font-weight-bold">Are any protocols and precautions in place for arriving passengers who are exiting the landside?</h5>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="question-1" id="question-1-yes" value="Yes">
+                        <label class="form-check-label" for="question-1-yes">Yes</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="question-1" id="question-1-no" value="No">
+                        <label class="form-check-label" for="question-1-no">No</label>
+                    </div>
+                </div>
+
+                <div class="form-group mt-4" id="question-2">
+                    <h5 class="font-weight-bold">Are e-grates available at immigration entry points?</h5>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="question-2" id="question-2-yes" value="Yes" data-question-trigger="question-2-input">
+                        <label class="form-check-label" for="question-2-yes">Yes</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="question-2" id="question-2-no" value="No">
+                        <label class="form-check-label" for="question-2-no">No</label>
+                    </div>
+                    <input type="text" class="form-control form-control-xl mt-3" id="question-2-input" placeholder="Website URL">
+                </div>
+
+                <div class="form-group mt-4" id="question-3">
+                    <h5 class="font-weight-bold">Are passengers required to quarantine at the airport?</h5>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="question-3" id="question-3-yes" value="Yes" data-question-trigger="question-3a">
+                        <label class="form-check-label" for="question-3-yes">Yes</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="question-3" id="question-3-no" value="No">
+                        <label class="form-check-label" for="question-3-no">No</label>
+                    </div>
+                </div>
+
+                <div class="form-group question-3a mt-4 indent-level-1">
+                    <h5 class="font-weight-bold">If yes, specify the duration in days.</h5>
+                    <input class="form-control form-control-xl" style="width: 100px;" type="number" name="question-3a" id="question-3a-yes" value="Yes" data-question-trigger="question-3b" placeholder="0">
+                </div>
+
+                <div class="form-group question-3a mt-4 indent-level-2">
+                    <h5 class="font-weight-bold">If yes, specify self-quarantine or airport-quarantine.</h5>
+                    <select class="form-control-xl">
+                        <option selected>Select option</option>
+                        <option value="self-quarantine" data-question-trigger="question-3b">Self-quarantine</option>
+                        <option value="airport-quarantine">Airport-quarantine</option>
+                    </select>
+                </div>
+
+                <div class="form-group question-3b mt-4 indent-level-3">
+                    <h5 class="font-weight-bold">If airport-quarantine, does passenger bear hotel and other related costs, e.g. meals, transportation etc.?</h5>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="question-3b" id="question-3b-yes" value="Yes">
+                        <label class="form-check-label" for="question-3b-yes">Yes</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="question-3" id="question-3b-no" value="No">
+                        <label class="form-check-label" for="question-3b-no">No</label>
+                    </div>
+                </div>
+
+                <div class="form-group question-4 mt-4">
+                    <h5 class="font-weight-bold">What special COVID-19 cleaning/sterilization measures has the airport implemented?</h5>
+                    <textarea name="question-4" id="question-4" class="form-control-xl w-100" style="height: 150px;" placeholder="Please tell us cleaning/sterilization measures for areas such as restrooms, boarding areas, dining areas, kiosks, etc."></textarea>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-12 text-center mt-5">
+            <a href="#" class="btn btn-dark-blue mr-2">Go Back</a>
+            <a href="#" class="btn btn-dark-blue">Next</a>
+        </div>
+    </div>
+</div>

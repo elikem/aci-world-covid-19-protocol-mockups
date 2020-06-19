@@ -36,29 +36,12 @@ img.logo {
   }
 }
 
-// stepper progress styles
-.step.active {
-  &:first-child {
-    button {
-      padding-left: 0;
-    }
-  }
-}
-.step {
-  button {
-    cursor: default !important;
-
-    &:hover {
-      background-color: transparent !important;
-    }
-
-    &:focus {
-      color: #6c757d !important;
-    }
-  }
-}
-
 // tables - remove borders
 .borderless td, .borderless th {
   border: none;
+}
+
+// circular badges
+.badge.rounded-circle.badge-xl {
+  padding: .5em .8em;
 }
